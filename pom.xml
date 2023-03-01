@@ -93,7 +93,9 @@
 			<scope>test</scope>
 		</dependency>
 		
-	<!--	<distributionManagement> -->
+	 	</dependencies>
+		
+	   <distributionManagement> 
 	    <repository>
 	      <id>nexus</id>
 	      <name>samueltech-releases</name>
@@ -109,9 +111,6 @@
 	</distributionManagement>
 		
 		
-		
-		
-	</dependencies>
 	<build>
 		<plugins>
 			<plugin>
